@@ -1,0 +1,5 @@
+version: '2'
+services:
+  gatling:
+    volumes:
+      - ./results:/usr/local/bin/gatling/results
